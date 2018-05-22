@@ -1,0 +1,19 @@
+{
+  "name": "mypackage",
+  "version": "1.0.0",
+  "description": "an application",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "do"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "me",
+  "license": "ISC"
+}
