@@ -1,4 +1,4 @@
-var mongoose=require('mongoose');
+/*var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 
 var userSchema=new Schema({
@@ -24,4 +24,19 @@ userSchema.methods.comparePassword=function(password){
 }
 
 
-module.exports=mongoose.model({'Users': userSchema});
+module.exports=mongoose.model({'Users': userSchema});*/
+
+var mongoose=require('mongoose');
+var Schema=mongoose.Schema;
+
+var user=new Schema({
+'nome': String,
+'cognome': String,
+'email': String,
+'password': String,
+'citta': String,
+'ora': Date
+});
+
+var users=mongoose.model('users', user);
+module.exports=users;
