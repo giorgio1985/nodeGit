@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Single page application</title>
+	<title>index file</title>
 </head>
 <body>
-<h5>Single page application</h5>
+	<h3>Index file</h3>
+	<br>
+	<hr>
+	<form method="post" action="/welcome">
+	Name:	    <input type="text" name="nome"/><br>
+	Surename:	<input type="text" name="cognome"/><br>
+	Email:	    <input type="text" name="email"/><br>
+	Password:	<input type="password" name="password"/><br>
+	City:  	<input type="text" name="citta"/><br>
+	Age:   	<input type="number" name="eta" min="0" max="150"/><br>
+		<input type="submit" name="submit" value="Send"/>
+	</form>
+	<hr>
 </body>
 </html>
